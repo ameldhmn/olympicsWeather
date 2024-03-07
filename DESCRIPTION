@@ -1,0 +1,10 @@
+Package: olympicsWeather
+Title: Prévisions météorologiques pour les sites olympiques
+Version: 0.0.0.9000
+Authors@R: person(given="Amel", family="Dahmani",email="amel.dahmani@etu.univ-nantes.fr", role= c("aut", "cre"))
+Description: Ce package offre des fonctionnalités permettant d'obtenir les prévisions météorologiques en fonction des coordonnées GPS ou des adresses des sites olympiques.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:devtools, httr2,jsonlite,usethis,htmltools,tibble,purrr,leaflet,sf,testthat,tidygeocoder,roxygen2,lubridate, dplyr, ggplot2
